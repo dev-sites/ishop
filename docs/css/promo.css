@@ -29,3 +29,13 @@
 .single-promo li {
   font-size: 50px;
 }
+
+@media (max-width: 768px) {
+  .promo .container {
+    flex-direction: column;
+  }
+  .single-promo {    
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

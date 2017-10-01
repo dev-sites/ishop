@@ -45,5 +45,14 @@
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+  }
+  .product {
+    width: 100%;
+  }
+}
+
 
 

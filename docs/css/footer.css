@@ -12,6 +12,7 @@
 
 .footer-menu .container div {
   width: 23%;
+  padding-bottom: 50px;
 }
 
 .footer-menu .container div h2 {
@@ -43,4 +44,13 @@
   font-size: 14px;
   padding-bottom: 55px;
   padding-left: 35px;
+}
+
+@media (max-width: 768px) {
+  .footer-menu .container {
+    flex-direction: column;
+  }
+  .footer-menu .container div {
+    width: 100%;
+  }
 }

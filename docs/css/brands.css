@@ -12,9 +12,22 @@
 }
 
 .single-brand {
-  max-width: 23%;
+  width: 23%;
 }
 
 .single-brand img {
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .top-brands .container { 
+    flex-direction: column;
+  }
+  .single-brand {
+    width: 100%;
+  }
+  .single-brand img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
 }
