@@ -3,19 +3,37 @@
 <head>
   <title>MusiCount</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+  <!-- Modules -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/container.css">
+  <link rel="stylesheet" type="text/css" href="css/zigzag.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/fixed.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+  <link rel="stylesheet" type="text/css" href="css/promo.css">
+  <link rel="stylesheet" type="text/css" href="css/latest-products.css">
+  <link rel="stylesheet" type="text/css" href="css/products.css">  
+  <link rel="stylesheet" type="text/css" href="css/brands.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  
 </head>
 <body>
   <header>
     <div class="top-menu">
       <div class="container">
         <nav>
-          <ul>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Wishlist</a></li>
-            <li><a href="#">My Cart</a></li>
-            <li><a href="#">Login</a></li>
+          <ul class="top-menu-list">
+            <li><a href="#"><i class="fa fa-user"></i>My Account</a></li>
+            <li><a href="#"><i class="fa fa-heart"></i>Wishlist</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>My Cart</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>Login</a></li>
           </ul>
         </nav>
       </div>
@@ -27,8 +45,10 @@
           <h1 class="brand"><a href="#"><span>M</span>usi<span>C</span>ount</a></h1>
         </div>
         <div class="cart">
-          <a href="#">Cart - <span>$800</span></a>
-          <span class="product-count">5</span>
+          <a href="#">Cart - <span>$800</span>
+            <li class="fa fa-shopping-cart"></li>
+          </a>         
+          <span class="product-count">5</span>        
         </div>
       </div>
     </div> 
@@ -37,7 +57,7 @@
       <div class="container">
         <nav class="navbar">
           <ul>
-            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#"S>Home</a></li>
             <li class="nav-item"><a href="#">Shop Page</a></li>
             <li class="nav-item"><a href="#">Single Product</a></li>
             <li class="nav-item"><a href="#">Cart</a></li>
@@ -50,6 +70,220 @@
       </div>
     </div>
   </header>
+
+  <section class="slider">    
+    <div class="slide-item show">
+      <div class="container">
+        <div class="slide-content">
+          <h1>We awesome</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dolorem, excepturi. Dolore aliquam quibusdam ut quae iure vero exercitationem ratione!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ab molestiae minus reiciendis! Pariatur ab rerum, sapiente ex nostrum laudantium.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide-item">
+      <div class="container">
+        <div class="slide-content">
+          <h1>We awesome</h1>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide-item">
+      <div class="container">
+        <div class="slide-content">
+          <h1>We superb</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dolorem, tium.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button class="btn active"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+    </div>
+    <div class="zigzag"></div>
+  </section> <!-- end slider -->
+
+  <section class="promo">
+    <div class="container">
+      <div class="single-promo">
+        <li class="fa fa-refresh"></li> 
+        <p>30 Days return</p>
+      </div>
+      <div class="single-promo"><li class="fa fa-truck"></li>
+        <p>Free Shipping</p>
+        </div>
+      <div class="single-promo"><li class="fa fa-lock"></li>
+        <p>Secure payments</p>
+        </div>
+      <div class="single-promo"><li class="fa fa-gift"></li>
+        <p>New products</p>
+      </div>
+    </div>  
+    <div class="zigzag"></div>  
+  </section> <!-- end promo -->
+
+  <section class="latest-product">
+    <div class="container">
+      <h1 class="page-header">Latest Product</h1>
+      <div class="products">
+        <div class="product">
+          <img class="product-image" src="img/product-1.png">
+          <h2><a href="#">Sony Smart TV</a></h2>
+          <p class="price">$300</p>
+        </div>
+        <div class="product">
+          <img class="product-image" src="img/product-1.png">
+          <h2><a href="#">Apple new mac book 2015 March :P</a></h2>
+          <p class="price">$300</p>
+        </div>
+        <div class="product">
+          <img class="product-image" src="img/product-1.png">
+          <h2><a href="#">Sony Smart TV</a></h2>
+          <p class="price">$300</p>
+        </div>
+        <div class="product">
+          <img class="product-image" src="img/product-1.png">
+          <h2><a href="#">Sony Smart TV</a></h2>
+          <p class="price">$300</p>
+        </div>
+        <div class="product">
+          <img class="product-image" src="img/product-1.png">
+          <h2><a href="#">Sony Smart TV</a></h2>
+          <p class="price">$300</p>
+        </div>
+      </div>
+    </div>
+    <div class="zigzag"></div>
+  </section> <!-- end latest product -->
+
+  <section class="top-brands">
+    <h1 class="page-header">Brands</h1>
+    <div class="container">
+      <div class="single-brand"><img src="img/logo_1.jpg"></div>
+      <div class="single-brand"><img src="img/logo_1.jpg"></div>
+      <div class="single-brand"><img src="img/logo_1.jpg"></div>
+      <div class="single-brand"><img src="img/logo_1.jpg"></div>
+    </div> 
+    <div class="zigzag"></div>   
+  </section> <!-- end brands -->
+
+  <section class="tops-product">
+    <div class="container">
+      <h2>Top sellers</h2>
+      <div class="top-sellers">
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+        <div class="top-product">
+          <img src="img/product-1.jpg">
+          <div>
+            <h3><a href="">Sony Smart TV - 2015</a></h3>
+            <p class="price">$400.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zigzag"></div>
+  </section> <!-- top products -->
+
+  <footer>
+    <section class="footer-menu">
+      <div class="container">
+        <div>
+          <h2>MusiCount</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+        </div>
+        <div>
+          <h2>User Navigation</h2>
+          <ul class="footer-list">
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Categories</h2>
+          <ul class="footer-list">
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Newsletter</h2>
+        </div>
+      </div>
+      <div class="zigzag"></div>
+    </section>
+    <div class="copyright">
+      <p>© 2015 eElectronics. All Rights Reserved.</p>
+    </div>
+  </footer>
 <script src="js/script.js"></script>
 </body>
 </html>

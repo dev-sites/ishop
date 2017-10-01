@@ -1,0 +1,26 @@
+/* tops */
+
+.tops-product h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.top-sellers {
+  display: flex;
+  flex-flow: row wrap; /**/
+  justify-content: space-between;
+}
+
+.top-product {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+
+.top-product img {
+  max-width: 100%;
+  padding-right: 15px;
+}
+

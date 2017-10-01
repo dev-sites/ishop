@@ -1,0 +1,31 @@
+/* promo */
+
+.promo {
+  background-color: var(--base-color);
+  padding-top: 100px; 
+  font-weight: 200;
+}
+
+.promo .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-promo {
+  border: 1px solid var(--add-color);
+  color: #fff;
+  width: 22%;
+  z-index: 45;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 25px;
+}
+
+.single-promo:hover {
+  background-color: #222;
+}
+
+.single-promo li {
+  font-size: 50px;
+}

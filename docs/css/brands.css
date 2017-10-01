@@ -1,0 +1,20 @@
+/* top brands */ 
+
+.top-brands {
+  background-color: var(--base-color);
+  color: #fff;  
+}
+
+.top-brands .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-brand {
+  max-width: 23%;
+}
+
+.single-brand img {
+  max-width: 100%;
+}

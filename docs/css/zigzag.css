@@ -1,0 +1,23 @@
+.zigzag {
+  background: none repeat scroll 0 0 var(--base-color);
+  bottom: -80px;
+  height: 165px;
+  left: -5%;
+  position: absolute;
+  transform: rotate(3deg);
+  width: 108%;
+  z-index: 10;
+}
+
+.promo .zigzag,
+.top-brands .zigzag {
+  --base-color: #fff;
+}
+
+.tops-product .zigzag {
+  --base-color: #333;
+}
+
+footer .zigzag {
+  --base-color: #000;
+}
