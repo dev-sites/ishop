@@ -72,10 +72,8 @@
 }
 
 .btn-group {
-  position: absolute;
-  bottom: 50px;
-  left: 49%;
-  z-index: 40;
+  transform: rotate(-3deg);
+  padding-top: 20px;
 }
 
 .btn {
